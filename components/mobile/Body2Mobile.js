@@ -16,7 +16,7 @@ export default function Body2Mobile(props) {
                         data-aos-mirror="true"
                         data-aos-once="false"
                         data-aos-anchor-placement="center">
-                        <Image src="/agreement.png" width={160} height={160} alt="agreement" />
+                        <Image src="/agreement.png" width={160} height={160} alt="agreement" priority />
                     </nav>
                 </div>
                 <div className="text-[#58627a] mt-5 text-xs sm:text-sm text-justify sm:mr-96 sm:block sm:mx-0">

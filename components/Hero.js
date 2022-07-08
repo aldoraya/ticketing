@@ -1,5 +1,5 @@
 import ButtonDaftar from "./ButtonDaftar";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import Image from "next/image"
 import Aos from 'aos'
 
