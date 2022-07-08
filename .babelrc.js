@@ -1,0 +1,6 @@
+[
+    {
+      "libraryName": "antd",
+      "libraryDirectory": "lib",  
+    },
+  ]
