@@ -58,29 +58,29 @@ export default function FormSignUp() {
             <form onSubmit={registerUser}>
                 <div className="mt-10">
                     <div className="border-b border-gray-400">
-                        <div className="absolute top-20 sm:top-48 mt-4 sm:mt-3">
+                        <div className="flex pt-3 pb-1">
                             <AiOutlineUser className="w-6 h-6 text-gray-700" />
+                            <input type="username" name="username" id="username" placeholder="username" className="text-base pl-4 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
                         </div>
-                        <input type="username" name="username" id="username" placeholder="username" className="text-base pl-8 pb-2 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
                     </div>
                     <div className="border-b border-gray-400">
-                        <nav className='relative top-6'>
+                        <div className='flex pt-6 pb-1'>
                             <AiOutlineMail className='w-6 h-6 text-gray-700' />
-                        </nav>
-                        <input type="verification" name="verification" id="verification" placeholder="email atau nomer HP" className="text-base pl-8 w-full pb-2 sm:w-64 border-none focus:ring-0 focus:outline-none" required/>
+                        <input type="verification" name="verification" id="verification" placeholder="email atau nomer HP" className="text-base pl-4 w-full md:w-64 border-none focus:ring-0 focus:outline-none" required/>
+                        </div>
                     </div>
             </div>
                 <div className="border-b border-gray-400">
-                    <nav className='"relative top-6'>
+                    <div className='flex pt-6 pb-1'>
                         <AiOutlineLock className='w-6 h-6 text-gray-500 '/>
-                    </nav>
-                    <input type="password" name="password" id="password" placeholder="password" className="text-base pl-8 pb-2 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
+                    <input type="password" name="password" id="password" placeholder="password" className="text-base pl-4 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
+                    </div>
                 </div>
                 <div className="border-b border-gray-400">
-                    <nav className='"relative top-6'>
+                    <div className='flex pt-6 pb-1'>
                         <AiOutlineLock className='w-6 h-6 text-gray-500 '/>
-                    </nav>
-                    <input type="password" name="new-password" id="re-password" placeholder="password" className="text-base pl-8 pb-2 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
+                        <input type="password" name="new-password" id="re-password" placeholder="password" className="text-base pl-4 w-full border-none focus:border-none focus:ring-0 focus:outline-none" required/>
+                    </div>
                 </div>
                 <div className="text-center mt-9">
                    <ButtonBerhasilDaftar />

@@ -7,8 +7,8 @@ export default function Hero(props) {
     return (
         <>
         <NavBar />
-        <div className="md:bg-[#20c992] block">
-                <div className="bg-[#20c992] w-full h-64 md:h-screen md:block">
+        <div className="md:bg-default block">
+                <div className="bg-default w-full h-64 md:h-screen md:block">
                     <div className="mx-32 hidden md:block">
                         <h1 className="text-white text-5xl md:text-6xl font-semibold md:pt-40 hidden md:block">Pesan Tiket <br/> Online</h1>
                         <p className="text-white md:pt-5 md:pb-5 text-md md:text-lg hidden md:block">Pesan tiket kereta dengan mudah dan cepat. Tidak <br/> perlu risau, hanya dengan satu sentuhan jari, tiket <br/> kereta yang kamu butuhkan bisa didapatkan <br/> dengan mudah.</p>

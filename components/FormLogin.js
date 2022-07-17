@@ -28,16 +28,16 @@ export default function FormLogin() {
         <>
             <form onSubmit={loginUser}>
                 <div className="border-b border-gray-400 mt-2">
-                    <nav className='"relative top-6'>
-                        <AiOutlineMail className='w-6 h-6 text-gray-500 '/>
-                    </nav>
-                    <input type="username" name="username" id="username" placeholder="email atau nomer HP" className="pl-8 w-full pb-2 border-none focus:ring-0 focus:outline-none" required/>
+                    <div className='flex pt-3 pb-1'>
+                        <AiOutlineMail className='w-6 h-6 text-gray-500'/>
+                        <input type="username" name="username" id="username" placeholder="email atau nomer HP" className="pl-4 w-full border-none focus:ring-0 focus:outline-none" required/>
+                    </div>
                 </div>
                 <div className="border-b border-gray-400 mt-2">
-                    <nav className='"relative top-6'>
-                        <AiOutlineLock className='w-6 h-6 text-gray-500 '/>
-                    </nav>
-                    <input type="password" name="password" id="password" placeholder="password" className="pl-8 w-full pb-2 border-none focus:border-none focus:ring-0 outline-none text-base" required/>
+                    <div className='flex pt-6 pb-1'>
+                        <AiOutlineLock className='w-6 h-6 text-gray-500'/>
+                        <input type="password" name="password" id="password" placeholder="password" className="pl-4 w-full border-none focus:border-none focus:ring-0 outline-none text-base" required/>
+                    </div>
                 </div>
                 <div className="text-center mt-7">
                     <p className="flex flex-1 justify-end text-sm">

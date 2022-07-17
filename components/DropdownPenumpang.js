@@ -24,7 +24,7 @@ export default function DropdownPenumpang() {
     setCount2(count2 - 1);
   }
 
-   function menu() {
+   const menu = () => {
      return (
        <>
       <div className="w-full min-h-full bg-white flex p-5 relative right-10">

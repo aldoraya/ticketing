@@ -14,10 +14,10 @@ export default function InstantPayment() {
             <div className="p-2 border-b border-gray-300 flex">
                 <p>Dana</p>
                 <button className="flex flex-1 justify-end">
-                    <nav className="absolute top-60 mr-5">
-                        <Image src="dana.png" width={64} height={64} alt="dana" />
+                    <nav className="absolute top-64 mr-5 mt-3">
+                        <Image src="/dana.png" width={64} height={64} alt="dana" />
                     </nav>
-                    <MdOutlineArrowForwardIos className="w-6 h-6" />
+                    <MdOutlineArrowForwardIos className="w-6 h-6 mt-1" />
                 </button>  
             </div>
             </a>
@@ -28,10 +28,10 @@ export default function InstantPayment() {
             <div className="p-2 border-b border-gray-300 flex">
                 <p>Qris</p>
                 <button className="flex flex-1 justify-end">
-                <nav className="absolute top-72 mt-3 mr-6">
+                <nav className="absolute top-80 mt-5 mr-6">
                     <Image src="/qris.jpg" width={48} height={32} alt="qris" />
                 </nav>
-                <MdOutlineArrowForwardIos className="w-6 h-6" />
+                <MdOutlineArrowForwardIos className="w-6 h-6 mt-2" />
                 </button>  
             </div>
             </a>

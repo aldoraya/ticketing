@@ -26,9 +26,8 @@ export default function PesananTiketMobile() {
             </div>
         </div>
         <div className="flex text-sm overflow-x-auto no-scrollbar mt-4">
-            <p className="border border-gray-300 text-gray-500 rounded-xl py-1 px-4 mr-2">
-              Filter
-              <GiSettingsKnobs />
+            <p className="border border-gray-300 text-gray-500 rounded-xl py-1 px-5 text-base mr-2 flex">
+              <GiSettingsKnobs className="mt-1 mr-2" /> Filter
             </p>
             <p className="border border-gray-300 text-gray-500 rounded-xl py-1 px-4 text-base mr-2">Ekonomi</p>
             <p className="border border-gray-300 text-gray-500 rounded-xl py-1 px-4 text-base mr-2">Eksekutif</p>

@@ -23,7 +23,7 @@ export default function DrawerPenumpangMobile() {
       setCount2(count2 - 1);
     }
 
-     const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(false);
 
     const showDrawer = () => {
       setVisible(true);
@@ -65,11 +65,11 @@ export default function DrawerPenumpangMobile() {
               <p className="text-xs relative bottom-2">Usia 3 tahun ke atas</p>
             </div>
             <div className='flex flex-1 justify-end'>
-              <button className="w-6 h-6 rounded-full bg-[#20c992] focus:bg-green-500 relative top-2 text-white" onClick={incrementClick}>-</button>
+              <button className="w-6 h-6 rounded-full bg-default focus:bg-green-500 relative top-2 text-white" onClick={incrementClick}>-</button>
                 <div className="border-b border-gray-300 mx-2 relative bottom-4">
                   <nav className="relative top-6 mx-4">{count}</nav>
                 </div>
-              <button className="w-6 h-6 rounded-full bg-[#20c992] focus:bg-green-500 relative top-2 text-white" onClick={decrementClick}>+</button>
+              <button className="w-6 h-6 rounded-full bg-default focus:bg-green-500 relative top-2 text-white" onClick={decrementClick}>+</button>
             </div>
         </div>
         <div className="w-full h-full bg-white flex py-2 border-b border-gray-200">
@@ -81,15 +81,15 @@ export default function DrawerPenumpangMobile() {
               <p className="text-xs relative bottom-2">Usia di bawa 3 tahun</p>
             </div>
             <div className='flex flex-1 justify-end'>
-              <button className="w-6 h-6 rounded-full bg-[#20c992] focus:bg-green-500 relative top-2 text-white" onClick={incrementClick2}>-</button>
+              <button className="w-6 h-6 rounded-full bg-default focus:bg-green-500 relative top-2 text-white" onClick={incrementClick2}>-</button>
               <div className="border-b border-gray-300 mx-2 relative bottom-4">
                 <nav className="relative top-6 mx-4">{count2}</nav>
               </div>
-                <button className="w-6 h-6 rounded-full bg-[#20c992] focus:bg-green-500 relative top-2 text-white" onClick={decrementClick2}>+</button>
+                <button className="w-6 h-6 rounded-full bg-default focus:bg-green-500 relative top-2 text-white" onClick={decrementClick2}>+</button>
             </div>
           </div>
           </div>
-          <button onClick={onClose} className="w-full py-2 bg-[#20c992] focus:bg-green-500 rounded-md text-center text-white font-semibold">Simpan</button>
+          <button onClick={onClose} className="w-full py-2 bg-default focus:bg-green-500 rounded-md text-center text-white font-semibold">Simpan</button>
         </Drawer>
       </div>
       );

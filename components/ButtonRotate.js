@@ -7,7 +7,7 @@ export default function ButtonRotate() {
         <div className="relative bottom-1 right-10">
             <input type="button" className="hidden"/>
                 <label>
-                    <RiArrowLeftRightLine className="cursor-pointer w-10 bg-[#20c992] rounded-full h-10 p-2 duration-300 text-white" />
+                    <RiArrowLeftRightLine className="cursor-pointer w-10 bg-default rounded-full h-10 p-2 duration-300 text-white" />
                 </label>
         </div>
     </button>
